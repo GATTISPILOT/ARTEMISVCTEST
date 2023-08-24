@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LERBASECHARIOT1.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resourceZROVER.h" />
+    <ClInclude Include="LERBASECHARIOT1.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\lib\orbiter.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\lib\Orbitersdk.lib">
+      <Filter>Libs</Filter>
+    </Library>
+    <Library Include="..\..\lib\DlgCtrl.lib">
+      <Filter>Libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZROVER.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{fb0d1250-297e-476e-8c18-9326c73c31d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
